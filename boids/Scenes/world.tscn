@@ -1,0 +1,364 @@
+[gd_scene load_steps=8 format=3 uid="uid://fe7nvnj0j7vo"]
+
+[ext_resource type="PackedScene" uid="uid://ct4hmu7kuwwr6" path="res://Scenes/boid.tscn" id="1_36v53"]
+[ext_resource type="PackedScene" uid="uid://1ea7lom23yoq" path="res://Scenes/player.tscn" id="2_o2vhp"]
+[ext_resource type="Texture2D" uid="uid://ca1af32042601" path="res://Assets/03cloudt.png" id="3_v5ro2"]
+[ext_resource type="Texture2D" uid="uid://dijcrtb1c7j32" path="res://Assets/05cloudt.png" id="5_6g6xl"]
+[ext_resource type="Texture2D" uid="uid://c5v3qj2fiijdo" path="res://Assets/07cloudt.png" id="6_lxtrs"]
+[ext_resource type="Texture2D" uid="uid://5go7w0n1231i" path="res://Assets/06cloudt.png" id="6_p0shr"]
+
+[sub_resource type="GDScript" id="GDScript_cjvgl"]
+
+[node name="World" type="Node2D"]
+script = SubResource("GDScript_cjvgl")
+
+[node name="Player" parent="." instance=ExtResource("2_o2vhp")]
+position = Vector2(352, 214)
+scale = Vector2(1.5, 1.5)
+
+[node name="Boids" type="Node2D" parent="."]
+
+[node name="Boid" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(494, 274)
+
+[node name="Boid2" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(442, 299)
+
+[node name="Boid3" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(472, 340)
+
+[node name="Boid4" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(518, 313)
+
+[node name="Boid5" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(543, -77)
+
+[node name="Boid6" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(505, 378)
+
+[node name="Boid7" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(535, 419)
+
+[node name="Boid8" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(567, -38)
+
+[node name="Boid9" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(606, -1)
+
+[node name="Boid10" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(554, 24)
+
+[node name="Boid11" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(582, -204)
+
+[node name="Boid12" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(544, 251)
+
+[node name="Boid13" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(560, -138)
+
+[node name="Boid14" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(606, -165)
+
+[node name="Boid15" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(645, -125)
+
+[node name="Boid16" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(593, -100)
+
+[node name="Boid17" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(623, -59)
+
+[node name="Boid18" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(669, -86)
+
+[node name="Boid19" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(708, -49)
+
+[node name="Boid20" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(656, -24)
+
+[node name="Boid21" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(394, 336)
+
+[node name="Boid22" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(342, 361)
+
+[node name="Boid23" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(372, 402)
+
+[node name="Boid24" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(418, 375)
+
+[node name="Boid25" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(457, 415)
+
+[node name="Boid26" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(405, 440)
+
+[node name="Boid27" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(322, 518)
+
+[node name="Boid28" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(368, 491)
+
+[node name="Boid29" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(520, 491)
+
+[node name="Boid30" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(355, 553)
+
+[node name="Boid31" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-72, 207)
+
+[node name="Boid32" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-124, 232)
+
+[node name="Boid33" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-94, 273)
+
+[node name="Boid34" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-48, 246)
+
+[node name="Boid35" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(254, 504)
+
+[node name="Boid36" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-61, 311)
+
+[node name="Boid37" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(232, 570)
+
+[node name="Boid38" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(278, 543)
+
+[node name="Boid39" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(317, 580)
+
+[node name="Boid40" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(265, 605)
+
+[node name="Boid41" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-178, 259)
+
+[node name="Boid42" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-230, 284)
+
+[node name="Boid43" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-200, 325)
+
+[node name="Boid44" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-154, 298)
+
+[node name="Boid45" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-115, 338)
+
+[node name="Boid46" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-167, 363)
+
+[node name="Boid47" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-137, 404)
+
+[node name="Boid48" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-91, 377)
+
+[node name="Boid49" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(211, 632)
+
+[node name="Boid50" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(272, 620)
+
+[node name="Boid51" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-20, -142)
+
+[node name="Boid52" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(853, -52)
+
+[node name="Boid53" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(883, -11)
+
+[node name="Boid54" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(4, -103)
+
+[node name="Boid55" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(43, -63)
+
+[node name="Boid56" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-9, -38)
+
+[node name="Boid57" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(21, 3)
+
+[node name="Boid58" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(67, -24)
+
+[node name="Boid59" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(106, 13)
+
+[node name="Boid60" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(54, 38)
+
+[node name="Boid61" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(1021, 305)
+
+[node name="Boid62" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(30, -165)
+
+[node name="Boid63" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(60, -124)
+
+[node name="Boid64" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(106, -151)
+
+[node name="Boid65" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(145, -111)
+
+[node name="Boid66" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(93, -86)
+
+[node name="Boid67" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(123, -45)
+
+[node name="Boid68" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(169, -72)
+
+[node name="Boid69" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(1147, 460)
+
+[node name="Boid70" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(156, -10)
+
+[node name="Boid71" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(805, -15)
+
+[node name="Boid72" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(753, 10)
+
+[node name="Boid73" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(783, 51)
+
+[node name="Boid74" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(829, 24)
+
+[node name="Boid75" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(868, 64)
+
+[node name="Boid76" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(816, 89)
+
+[node name="Boid77" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(846, 130)
+
+[node name="Boid78" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(892, 103)
+
+[node name="Boid79" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(6, 75)
+
+[node name="Boid80" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(879, 165)
+
+[node name="Boid81" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(715, 37)
+
+[node name="Boid82" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(663, 62)
+
+[node name="Boid83" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(693, 103)
+
+[node name="Boid84" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(739, 76)
+
+[node name="Boid85" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(778, 116)
+
+[node name="Boid86" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(726, 141)
+
+[node name="Boid87" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(756, 182)
+
+[node name="Boid88" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(802, 155)
+
+[node name="Boid89" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(841, 192)
+
+[node name="Boid90" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(-136, 152)
+
+[node name="Boid91" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(609, 89)
+
+[node name="Boid92" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(557, 114)
+
+[node name="Boid93" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(587, 155)
+
+[node name="Boid94" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(633, 128)
+
+[node name="Boid95" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(672, 168)
+
+[node name="Boid96" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(620, 193)
+
+[node name="Boid97" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(664, 664)
+
+[node name="Boid98" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(710, 637)
+
+[node name="Boid99" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(749, 674)
+
+[node name="Boid100" parent="Boids" instance=ExtResource("1_36v53")]
+position = Vector2(697, 699)
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.3, 0.3)
+motion_mirroring = Vector2(2500, 1500)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+texture_filter = 1
+position = Vector2(0, -87)
+scale = Vector2(3, 3)
+texture = ExtResource("3_v5ro2")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(680, 799)
+motion_scale = Vector2(0.7, 0.7)
+motion_mirroring = Vector2(3000, 2000)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+texture_filter = 1
+scale = Vector2(3, 3)
+texture = ExtResource("5_6g6xl")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(-191, 104)
+motion_mirroring = Vector2(3500, 2500)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
+texture_filter = 1
+position = Vector2(-238, -425)
+scale = Vector2(3, 3)
+texture = ExtResource("6_p0shr")
+
+[node name="ParallaxForeground" type="ParallaxBackground" parent="."]
+layer = 100
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxForeground"]
+position = Vector2(854, -771)
+motion_scale = Vector2(3, 3)
+motion_mirroring = Vector2(5000, 5000)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxForeground/ParallaxLayer"]
+texture_filter = 1
+scale = Vector2(3, 3)
+texture = ExtResource("6_lxtrs")
